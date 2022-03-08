@@ -20,7 +20,7 @@ int main (int arga, char *argb[]) {
 
     char *iteration = argb[2];
 
-	//case 3 makes sure there are three arguments 
+	//if  makes sure there are three arguments 
 	//atoi is converting strings to int 
     if (arga==3){
             threadnums =  atoi(threadnum);
